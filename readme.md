@@ -36,4 +36,12 @@ Functional requirements
 | Requirement | Description |
 | ----------- | ----------- |
 | Movement system | Player movement in 4 directions. WASD or arrow keys movement. Consistent movement speed |
+| Interaction System | System detects when player is in range of interactive objects |
+| State Persistence | System saves the state of all interactive objects, recording if any changes have been made. |
+| Audio Trigger system | The system monitors player location and action history to trigger matching audios. | 
+| Inventory system | System tracks six items carried by player and displayed in grid format. |
+| Save System | System serialises game state to JSON format and writes it to local storage. Multiple saves are supported. | 
+| Day Cycle | System has four distint backgrounds on a 20 minute cycle. |
+| Weather system | System will occasionally have a rainy state with appropriate audio changes. |
+| Subtitle System | Subtitles will be displayed for all effects when enabled. | 
 
