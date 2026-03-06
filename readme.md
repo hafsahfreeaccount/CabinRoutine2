@@ -45,3 +45,14 @@ Functional requirements
 | Weather system | System will occasionally have a rainy state with appropriate audio changes. |
 | Subtitle System | Subtitles will be displayed for all effects when enabled. | 
 
+3.1 Epic structure 
+Product backlog is organised into epics. Each epic contains multiple user stories with associated tasks, acceptance criteria and story point estimates. 
+
+| Epic | Description | Priority | Story Points |
+| Player Movement and controls | All functionality related to moving the player character through the world and controlling the camera. | Critical | 13 | 
+| Object Interaction | Systems for identifying, approaching and manipulating interactive objects in the environment. | Critical | 21 |
+| World persistence | Saving and loading game state, maintaining object states across sessions. | High | 13 |
+| Audio System | All audio funstionality including ambient layers and interactive sounds. | Critical | 21 | 
+| Narrative delivery | Systems for triggering and managing narrative audio fragments and keepsake objects. | High | 13 |
+| U ser Interface | Inventory displays, pause menu, settings screens and all UI elements. | Medium | 8 |
+
