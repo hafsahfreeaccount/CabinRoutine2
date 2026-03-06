@@ -49,6 +49,7 @@ Functional requirements
 Product backlog is organised into epics. Each epic contains multiple user stories with associated tasks, acceptance criteria and story point estimates. 
 
 | Epic | Description | Priority | Story Points |
+| ---- | ----------- | -------- | ------------ |
 | Player Movement and controls | All functionality related to moving the player character through the world and controlling the camera. | Critical | 13 | 
 | Object Interaction | Systems for identifying, approaching and manipulating interactive objects in the environment. | Critical | 21 |
 | World persistence | Saving and loading game state, maintaining object states across sessions. | High | 13 |
