@@ -46,6 +46,7 @@ Functional requirements
 | Subtitle System | Subtitles will be displayed for all effects when enabled. | 
 
 3.1 Epic structure 
+
 Product backlog is organised into epics. Each epic contains multiple user stories with associated tasks, acceptance criteria and story point estimates. 
 
 | Epic | Description | Priority | Story Points |
@@ -56,4 +57,9 @@ Product backlog is organised into epics. Each epic contains multiple user storie
 | Audio System | All audio funstionality including ambient layers and interactive sounds. | Critical | 21 | 
 | Narrative delivery | Systems for triggering and managing narrative audio fragments and keepsake objects. | High | 13 |
 | U ser Interface | Inventory displays, pause menu, settings screens and all UI elements. | Medium | 8 |
+
+3.2 Complete Product Backlog
+
+| Story | Epic | Points | 
+| ----- | ---- | ------ |
 
