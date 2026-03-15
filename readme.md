@@ -45,7 +45,14 @@ Extreme programming (xp)
 Extreme Programming offers practices including test driven develpoment and pair programming. While valuable, the engineering focused practices felt somewhat heavyweight for a project of this scale. The emphasis on rapid releases was not inline with the project and was not chosen.
 
 Scrum 
-Scrum emerged as the most appropriate framework. 
+Scrum emerged as the most appropriate framework. Key features include:
+
+- Sprints of consistent duration
+- Regular sprint reviews
+- Adaptive planning through backlog refinement
+- Ceremonies (Daily stand-ups)
+
+In agile Game Development with scrum, this framework has been successfully adapted for game development because it allows for creative uncertainty in making games. 
 
 - Timeboxed iteration of consistent duration
 - Regular sprint reviews
@@ -192,12 +199,11 @@ Interaction system:
 - Animation triggers baed on successful interaction
 - Visual state change
 
-Tool system:
 
-| Tool | Action | Required for |
-| ---- | ------ | ------------ |
-| Broom | Sweep floors | Dusty surfaces | 
-| Cloth | Wipe surfaces | Dirty surfaces |
+
+
+
+
 
 
 
