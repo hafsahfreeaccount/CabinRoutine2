@@ -168,6 +168,10 @@ The player observes the environment, noticing elements that draw their attention
 
 ## Character 
 ## Artwork 
+<img width="414" height="809" alt="image" src="https://github.com/user-attachments/assets/a68feed6-9c63-42b2-970e-441036f2d33d" />
+This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-rpg. This greatly reduced development time as 
+<img width="325" height="313" alt="image" src="https://github.com/user-attachments/assets/46faccba-145d-4de5-8f46-c6660889fa76" />
+
 ## Game Rules
 | Rule | Implementation | Rationale |
 |----- | -------------- | --------- |
