@@ -26,6 +26,7 @@ Table of contents
 - [Core Features](#core-features)
 - [Burndown Chart](#burndown-chart)
 - [Development Review Meetings](#development-review-meetings)
+- [Future Development Opportunities](#future-development-opportunities)
 - [Final Evaluation](#final-evaluation)
 
 
@@ -177,13 +178,32 @@ This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-
 |----- | -------------- | --------- |
 | Energy depletion | Each action consumes energy. Reaching zero triggers respawn | Creates gentle consequence without severe punishment |
 | Time progresion | Actions advance time. Certain tasks available at certain times | Encourages varied play patterns |
-| Task optionality | No required objectives 
+| Task optionality | No required objectives | Supports relaxed gameplay and player freedom | Task completion | Completing tasks improves the cabin's condition | Reinforces progress and player impact | 
 ## Gameplay 
+The gameplay is centred around completing small repeatable tasks within the cabin environment. The player moves around the space, interacts with objects, manages limited energy while progressing through time. The core loop involves identifying tasks, completing them and observing changes in the environment. The design promotes a relaxed place, allowing players to engage with the game without pressure while still maintaining a sense of progression and purpose.
 ## Backlog
 The product backlog was organised using the MoSCow method (Must have, Should have, Could have, Won't have). This prioritisation framework ensured that critical features were delivered even if the scope needed adjustment. 
+### Product backlog
+| User story | Priority | MoSCoW | Acceptance Criteria |
+| ---------- | -------- | ------ | ------------------- |
+| As a player, I want to move around the cabin so that I can interact with objects | High | Must | Player can move in 4 directions | 
+| As a player, I want to interact with objectsso that I can complete tasks. | High | Must | Interaction key  works on objects | 
+| As a player, I want time to progress so that tasks feel dynamic | Medium | Should | Time increases after actions | 
+| As a player, I want tasks to complete so that I can see progress | Medium | Should | Tasks update visually |
+| As a player, I want a simple UI so that I can see energy/time | Medium | Should | UI displays correct values | 
+| As a player, I want sound effects so that the game feels immersive | Low | Could | Sounds play on interaction |
+| As a player, I want multiple rooms so that gameplay has variety | Low | Could | Player can move between areas |
 ## Backlog reviews
 ## Function definitions 
 ## Tests 
 ## Burndown chart
 ## Development Review Meetings 
+## Future Development Opportunities
+- Create inventory
+- Save progress
+- varying and randomising tasks
+- Refine experience, audio, colours
+- More things to interact with
+- Storymode
 ## Final Evaluation
+
