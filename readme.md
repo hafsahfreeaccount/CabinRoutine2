@@ -95,9 +95,11 @@ The game follows a lone caretaker responsible for maintaining a remote cabin. Wh
 
 ## Design strategy
 The design strategy focuses on iterative development. A simplified version of the game is developed first to ensure core functions are working correctly before expanding.   The project follows structured development methods, incorporating elements of agile development such as regular reviews and task backlogs. This approach reduces risk, allows for continuous improvement and ensures the final game remains focused on its core gameplay experience. 
+
 ## Development Strategy
 ### Evaluation of strategies
 Several software development strategies were considered including Waterfall, Spiral, Extreme Programming (XP) and Scrum. 
+
 #### Waterfall methodology 
 This methodology has a linear approach. Each stage must be completed before moving onto the next. (Requirements, analysis, design, development, testing, deployment)
 
@@ -162,16 +164,28 @@ Weaknesses:
 
 Evaluation:
 Scrum was the most suitable methodology for this project. It allowed development to adapt when progres was slow in the early stages due to learning Godot. The use of a backlog and sprint structure helped organise tasks and prioritise essential features. Although not all Scrum elements were fully implemented, it supported flexible and iterative development, which is ideal for game creation. 
+
 ## Programming language
+The game is developed using GDScript, the primary scripting language of the Godot engine. GDScript is a high level, python like language that is intergrated within Godot, making it suitable for rapid development. It allows for effiecient implementation of core systems. Usinf GDScript simplifies debugging and supports modular code sturcture which is beneficial for managing a small scale project like Cabin Routine. 
+
 ## User interface and controls
+The user interface is designed to be minimal ensuring it does not distract from core gameplay. Key information such as energy levels and time progression is displayed clearly on screen using simple visual elements. The controls are straightforward, using keyboard input for movement (e.g. WASD or arrow keys) and a single key for interaction. This simple control system scheme makes the game easy to learn and accessible to a wide range of players while supporting smooth and intuitive gameplay. 
+
 ## Game loop
 The player observes the environment, noticing elements that draw their attention. They choose to act, using appropriate tools to clean or repair what they have noticed. Completing actions reveal discoveries, physical objects or audio fragments. The player reflects on what they have found and the cycle continues organically based on their curiosity. 
 
 ## Character 
+<img width="333" height="291" alt="image" src="https://github.com/user-attachments/assets/99c69a13-9385-4c16-9644-bbf0644b22f3" />
+The character is a smiple pixel art care taker sprite designed to fit the minimal and calm aesthetic. The design is small in scale with limited detail, allowing it to be easily recognisable while maintaining performance efficiency. The character uses a consistent pose and basic colour palette, making it suitable for repreated animations such as walking and interacting with objects, 
+
 ## Artwork 
 <img width="414" height="809" alt="image" src="https://github.com/user-attachments/assets/a68feed6-9c63-42b2-970e-441036f2d33d" />
-This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-rpg. This greatly reduced development time as 
+
+This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-rpg. This greatly reduced development time as it removed the need to create all visaul assets from scratch while still maintaining a consistent and professional appearance. 
+
 <img width="325" height="313" alt="image" src="https://github.com/user-attachments/assets/46faccba-145d-4de5-8f46-c6660889fa76" />
+
+The wall tiles are pixel art assets used to construct the cabin environment. They feature a simple repeating pattern that allows for easy level design and scalability. The tiles are designed to seamlessly connect, enabling the creation of enclosed spaces such as rooms and interiors. Their consistent style ensures they blend well with both the character and other environmental assets. 
 
 ## Game Rules
 | Rule | Implementation | Rationale |
@@ -193,11 +207,52 @@ The product backlog was organised using the MoSCow method (Must have, Should hav
 | As a player, I want a simple UI so that I can see energy/time | Medium | Should | UI displays correct values | 
 | As a player, I want sound effects so that the game feels immersive | Low | Could | Sounds play on interaction |
 | As a player, I want multiple rooms so that gameplay has variety | Low | Could | Player can move between areas |
+
+### Sprint backlog 
+
+| Task | Status | Notes |
+| ---- | ------ | ----- |
+| Set up Godot project | Done | Initial set up completed |
+| Implement player movement | Done | Basic movement working |
+| Add interaction system | Done | Simple object interaction |
+| Implement time system | Incomplete | Basic system implemented |
+| Add UI (time) | Incomplete | UI partially working | 
+| Add sound effects | Not started | Lower priority |
+| Add aditional rooms | Not started | Basic functionality was prioritised |
+
 ## Backlog reviews
-## Function definitions 
+Backlog reviews were conducted at regular intervals to ensure priorities remained relevant. Tasks that were completed were removed, while unfinished tasks were either carried forward or deprioritised. Feedback from development progress influencecd backlog adjustments. This ensured focus remained on delivering core features first. 
+
 ## Tests 
+| Test case | Expected outcome | Result |
+| --------- | ---------------- | ------ |
+| Player movement | Player moves in all directions | Pass |
+| Object interaction | Player can interact with objects | Pass | 
+| Time progression | Time increases with actions | Partial |
+| UI display | UI updates correctly | Partial |
+
 ## Burndown chart
+<img width="667" height="443" alt="image" src="https://github.com/user-attachments/assets/98c1b7cc-286d-41d8-acbb-c29f5c871e6f" />
+
 ## Development Review Meetings 
+
+Development review meetings were held regularly to reflect on progress and plan upcoming work. During each meeting, tasks completed since last session were reviewed, new tasks identified and any challenges or blockers were discussed. This process helped maintain organisation, ensured consistent progress and allowed for timely problem solving. 
+
+Week 1-2
+- Completed: Project setup, research
+- Next: Begin core mechanics
+- Blockers: learning Godot engine
+
+Week 3 
+- Completed: Movement, interaction
+- Next: UI
+- Blockers: Time management
+
+Week 4
+- Completed: Core gameplay loop
+- Next: Polish features
+- Blockers: Limited time remaining
+  
 ## Future Development Opportunities
 - Create inventory
 - Save progress
@@ -205,5 +260,7 @@ The product backlog was organised using the MoSCow method (Must have, Should hav
 - Refine experience, audio, colours
 - More things to interact with
 - Storymode
+
 ## Final Evaluation
+The project successfully delivered a simplified version of Cabin Routine, including core systems such as movement and interaaction. Scrum practices such as backlog prioritisation and sprint tracking supported development. Progress was initially slow due to familiarisation with the engine. While some planned features were not completed, the final product meets its minimum requirements and demonstrates a functional gameplay loop.
 
