@@ -114,6 +114,16 @@ The game follows a lone caretaker responsible for maintaining a remote cabin. Wh
 ## Design strategy
 The design strategy focuses on iterative development. A simplified version of the game is developed first to ensure core functions are working correctly before expanding.   The project follows structured development methods, incorporating elements of agile development such as regular reviews and task backlogs. This approach reduces risk, allows for continuous improvement and ensures the final game remains focused on its core gameplay experience. 
 
+## Diagrams
+### State diagram 
+<img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/52a27607-1236-47ee-902c-2a8f75775d3c" />
+
+### Flowchart
+<img width="376" height="702" alt="image" src="https://github.com/user-attachments/assets/a073041f-d89c-4987-bbac-c15ad629407c" />
+
+
+
+
 ## Development Strategy
 ### Evaluation of strategies
 Several software development strategies were considered including Waterfall, Spiral, Extreme Programming (XP) and Scrum. 
