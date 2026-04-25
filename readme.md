@@ -199,7 +199,7 @@ The character is a smiple pixel art care taker sprite designed to fit the minima
 ## Artwork 
 <img width="414" height="809" alt="image" src="https://github.com/user-attachments/assets/a68feed6-9c63-42b2-970e-441036f2d33d" />
 
-This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-rpg. This greatly reduced development time as it removed the need to create all visaul assets from scratch while still maintaining a consistent and professional appearance. 
+This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-rpg. This greatly reduced development time as it removed the need to create all visual assets from scratch while still maintaining a consistent and professional appearance. 
 
 <img width="325" height="313" alt="image" src="https://github.com/user-attachments/assets/46faccba-145d-4de5-8f46-c6660889fa76" />
 
