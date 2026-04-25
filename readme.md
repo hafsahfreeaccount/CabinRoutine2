@@ -51,8 +51,11 @@ Cabin routine is a pixel style caretaker simulation game where the player manage
 
 ## Coding techniques
 Cabin Routine was developed using structured gameplay logic and clear state based design. A state diagram was used during planning to map out the different phases of the game and how the player transitions between them. 
+
 The project uses GDScript to control the main game mechanics, including player interactions, object behaviour, scene changes, and routine based events. Logic was separated into manageable scripts so that each part of the game could handle its own responsibility, making the project easier to build, test, and, update. 
-A state based system was used to manage gameplay flow. This helped organise different actions and conditions. For example, when the player can interact with objects, complete tasks, or progress through the routine. Conditional statements and event triggers were used to check player actions and update the game state accordingly. 
+
+A state based system was used to manage gameplay flow. This helped organise different actions and conditions. For example, when the player can interact with objects, complete tasks, or progress through the routine. Conditional statements and event triggers were used to check player actions and update the game state accordingly.
+
 The project also uses Godot's built in node and scene system to structure the game world. Individual objects, areas, and interactive elements were created as separate nodes or scenes, allowing them to be reused and managed more easily throughout the project. 
 
 ## Research
