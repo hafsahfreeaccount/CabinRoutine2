@@ -1,7 +1,7 @@
 # Cabin Routine 
 Table of contents
 - [Introduction](#introduction)
-- [Software tools](#software-tools)
+- [Development tools](#Development-tools)
 - [Coding Techniques](#coding-techniques)
 - [Research](#research)
 - [User Requirements](#user-requirements)
@@ -32,12 +32,22 @@ Table of contents
 
 ## Introduction 
 Cabin routine is a pixel style caretaker simulation game where the player manages and maintains a small cabin environment. The player must complete daily tasks such as cleaning, repairing, feeding animals, and managing resources while balancing time and energy. There is no combat. A failure state when the needs are not met for example energy or lack of resources. The project’s aim is to create a low stress experience where the player finds meaning in simple tasks. Through exploration of the game the player uncovers a story told entirely through environment and audio feedback.
-## Software tools
-- Windows PC
-- Mac OS
-- Minimum specifications
-    - OS: Windows 10
-    - Memory: 4GB RAM
+
+## Development tools
+- Godot engine
+  - Used for building the core game, including scene management, physics, and scripting.
+- GDScript
+  - Implemented gameplay mechanics, state logic and interactions
+- draw.io
+  - Created state diagrams to plan and visualise game flow and logic transitions
+- piskel
+  - used for creating pixel art assets from scratch
+- itch.io
+  - Used to find free to use 2D pixel art game asset packs
+- FIGMA
+  - Used to make high fidelity wireframes and planning for visual flow of game and colour schemes
+- GitHub
+  - Managed version control and tracked project progress
 
 ## Coding techniques
 ## Research
