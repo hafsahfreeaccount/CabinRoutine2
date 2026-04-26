@@ -1,6 +1,8 @@
 # Cabin Routine 
 Table of contents
 - [Introduction](#introduction)
+- [Sprint 2 Overview](#Sprint-2-Overview)
+- [Core Features](#core-features)
 - [Development tools](#Development-tools)
 - [Coding Techniques](#coding-techniques)
 - [Research](#research)
@@ -23,15 +25,44 @@ Table of contents
 - [Backlog Reviews](#backlog-reviews)
 - [Function definitions](#function-definitions)
 - [Tests](#tests)
+- [Testing Sprint 2](#Testing-sprint-2)
 - [Core Features](#core-features)
 - [Burndown Chart](#burndown-chart)
 - [Development Review Meetings](#development-review-meetings)
 - [Future Development Opportunities](#future-development-opportunities)
+- [Future Improvements 2](#Future-improvements-2)
 - [Final Evaluation](#final-evaluation)
+- [Final Evaluation 2](#final-evaluation-2)
 
 
 ## Introduction 
 Cabin routine is a pixel style caretaker simulation game where the player manages and maintains a small cabin environment. The player must complete daily tasks such as cleaning, repairing, feeding animals, and managing resources while balancing time and energy. There is no combat. A failure state when the needs are not met for example energy or lack of resources. The project’s aim is to create a low stress experience where the player finds meaning in simple tasks. Through exploration of the game the player uncovers a story told entirely through environment and audio feedback.
+
+## Sprint 2 Overview
+Sprint 2 focused on expanding the core gameplay mechanics and improving overall game structure. During this sprint, new interactive features were implemented, and existing systems were refined to improve usability and maintainability.
+
+Key improvements included:
+- Implementation of item-based interactions (e.g. broom for cleaning)
+- Improved player interaction system using proximity detection
+- Enhanced UI prompts for player guidance
+- Refinement of game logic to reduce code duplication
+- Initial testing and debugging of core mechanics
+
+This sprint built upon the foundations created in Sprint 1 and aimed to make the game more interactive and functional.
+
+## Core Features
+Sprint 1:
+- Basic player movement
+- Simple environment setup
+
+Sprint 2:
+- Interactive cleaning system (dust piles can be removed)
+- Player proximity detection for interactions
+- On-screen prompts to guide the player (e.g. "Press Space to sweep")
+- Object interaction using input events
+
+
+These features significantly improved gameplay and player engagement.
 
 ## Development tools
 - Godot engine
@@ -57,6 +88,15 @@ The project uses GDScript to control the main game mechanics, including player i
 A state based system was used to manage gameplay flow. This helped organise different actions and conditions. For example, when the player can interact with objects, complete tasks, or progress through the routine. Conditional statements and event triggers were used to check player actions and update the game state accordingly.
 
 The project also uses Godot's built in node and scene system to structure the game world. Individual objects, areas, and interactive elements were created as separate nodes or scenes, allowing them to be reused and managed more easily throughout the project. 
+
+Additional techniques introduced in Sprint 2 include:
+
+- Event-driven programming using signals (e.g. detecting when the player enters an area)
+- Use of boolean flags to manage interaction states (e.g. player_near)
+- Modular scripting by separating interaction logic into different nodes
+- Reduction of repeated code by combining conditions and improving logic flow
+
+These techniques improved both efficiency and code clarity.
 
 ## Research
 Several games were analysed to identify key features that can be applied to the project. These games were selected because they focus on routine based gameplay, environmental interaction and relaxing mechanics. By comparing their features, the inclusion of systems such as cleaning, repairng and daily tasks in the game is justified. 
@@ -262,6 +302,18 @@ Backlog reviews were conducted at regular intervals to ensure priorities remaine
 | Time progression | Time increases with actions | Partial |
 | UI display | UI updates correctly | Partial |
 
+## Testing Sprint 2
+During Sprint 2, testing became more structured. Each feature was tested individually before being integrated into the main game.
+
+Examples of testing:
+- Verified that interaction prompts appear only when the player is nearby
+- Tested input handling to ensure actions only trigger under correct conditions
+- Checked that objects (e.g. dust piles) are removed correctly after interaction
+- Identified and fixed duplicate input condition bugs
+
+This process helped improve the robustness and reliability of the game.
+
+
 ## Burndown chart
 <img width="667" height="443" alt="image" src="https://github.com/user-attachments/assets/98c1b7cc-286d-41d8-acbb-c29f5c871e6f" />
 
@@ -292,6 +344,23 @@ Week 4
 - More things to interact with
 - Storymode
 
+## Future Improvements 2
+- Implement a full inventory system
+- Add more interactive objects and tasks
+- Improve UI design and feedback
+- Introduce sound effects and animations
+- Optimise code further for scalability
+- Expand game objectives and progression system
+
+These improvements would enhance both gameplay depth and user experience.
+
 ## Final Evaluation
 The project successfully delivered a simplified version of Cabin Routine, including core systems such as movement and interaaction. Scrum practices such as backlog prioritisation and sprint tracking supported development. Progress was initially slow due to familiarisation with the engine. While some planned features were not completed, the final product meets its minimum requirements and demonstrates a functional gameplay loop.
+
+## Final Evaluation 2
+During Sprint 2, I realised that my initial approach lacked structure due to my unfamiliarity with GDScript and the Godot engine. However, by using tutorials and experimenting with small features, I was able to gradually improve my understanding.
+
+One key lesson learned was to keep requirements simple when working with a new platform. This allowed me to build confidence before attempting more complex systems.
+
+While my code initially contained some duplication and inefficiencies, I improved it by refactoring and applying better design practices such as modularisation and clearer logic flow.
 
