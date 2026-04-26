@@ -1,7 +1,7 @@
 # Cabin Routine 
 Table of contents
 - [Introduction](#introduction)
-- [Software tools](#software-tools)
+- [Development tools](#Development-tools)
 - [Coding Techniques](#coding-techniques)
 - [Research](#research)
 - [User Requirements](#user-requirements)
@@ -32,14 +32,32 @@ Table of contents
 
 ## Introduction 
 Cabin routine is a pixel style caretaker simulation game where the player manages and maintains a small cabin environment. The player must complete daily tasks such as cleaning, repairing, feeding animals, and managing resources while balancing time and energy. There is no combat. A failure state when the needs are not met for example energy or lack of resources. The project’s aim is to create a low stress experience where the player finds meaning in simple tasks. Through exploration of the game the player uncovers a story told entirely through environment and audio feedback.
-## Software tools
-- Windows PC
-- Mac OS
-- Minimum specifications
-    - OS: Windows 10
-    - Memory: 4GB RAM
+
+## Development tools
+- Godot engine
+  - Used for building the core game, including scene management, physics, and scripting.
+- GDScript
+  - Implemented gameplay mechanics, state logic and interactions
+- draw.io
+  - Created state diagrams to plan and visualise game flow and logic transitions
+- piskel
+  - used for creating pixel art assets from scratch
+- itch.io
+  - Used to find free to use 2D pixel art game asset packs
+- FIGMA
+  - Used to make high fidelity wireframes and planning for visual flow of game and colour schemes
+- GitHub
+  - Managed version control and tracked project progress
 
 ## Coding techniques
+Cabin Routine was developed using structured gameplay logic and clear state based design. A state diagram was used during planning to map out the different phases of the game and how the player transitions between them. 
+
+The project uses GDScript to control the main game mechanics, including player interactions, object behaviour, scene changes, and routine based events. Logic was separated into manageable scripts so that each part of the game could handle its own responsibility, making the project easier to build, test, and, update. 
+
+A state based system was used to manage gameplay flow. This helped organise different actions and conditions. For example, when the player can interact with objects, complete tasks, or progress through the routine. Conditional statements and event triggers were used to check player actions and update the game state accordingly.
+
+The project also uses Godot's built in node and scene system to structure the game world. Individual objects, areas, and interactive elements were created as separate nodes or scenes, allowing them to be reused and managed more easily throughout the project. 
+
 ## Research
 Several games were analysed to identify key features that can be applied to the project. These games were selected because they focus on routine based gameplay, environmental interaction and relaxing mechanics. By comparing their features, the inclusion of systems such as cleaning, repairng and daily tasks in the game is justified. 
 
@@ -95,6 +113,16 @@ The game follows a lone caretaker responsible for maintaining a remote cabin. Wh
 
 ## Design strategy
 The design strategy focuses on iterative development. A simplified version of the game is developed first to ensure core functions are working correctly before expanding.   The project follows structured development methods, incorporating elements of agile development such as regular reviews and task backlogs. This approach reduces risk, allows for continuous improvement and ensures the final game remains focused on its core gameplay experience. 
+
+## Diagrams
+### State diagram 
+<img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/52a27607-1236-47ee-902c-2a8f75775d3c" />
+
+### Flowchart
+<img width="376" height="702" alt="image" src="https://github.com/user-attachments/assets/a073041f-d89c-4987-bbac-c15ad629407c" />
+
+
+
 
 ## Development Strategy
 ### Evaluation of strategies
@@ -181,7 +209,7 @@ The character is a smiple pixel art care taker sprite designed to fit the minima
 ## Artwork 
 <img width="414" height="809" alt="image" src="https://github.com/user-attachments/assets/a68feed6-9c63-42b2-970e-441036f2d33d" />
 
-This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-rpg. This greatly reduced development time as it removed the need to create all visaul assets from scratch while still maintaining a consistent and professional appearance. 
+This is from an asset pack on itch.io at https://kenmi-art.itch.io/cute-fantasy-rpg. This greatly reduced development time as it removed the need to create all visual assets from scratch while still maintaining a consistent and professional appearance. 
 
 <img width="325" height="313" alt="image" src="https://github.com/user-attachments/assets/46faccba-145d-4de5-8f46-c6660889fa76" />
 
