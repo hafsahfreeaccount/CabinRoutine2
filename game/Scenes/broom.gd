@@ -31,3 +31,7 @@ func _input(event):
 		queue_free()  # Remove broom from world
 		# We'll track that player has broom later
 		print("Picked up broom!")
+
+func pick_up():
+	player_near.has_broom = true
+	queue_free()

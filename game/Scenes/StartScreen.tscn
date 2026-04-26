@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://chtn7hpl4jq2m"]
+
+[ext_resource type="Script" uid="uid://cxj23asp7iw3m" path="res://Scenes/start_screen.gd" id="1_ko4ly"]
+
+[node name="StartScreen" type="Control" unique_id=1251399124]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 13.0
+offset_top = 2.0
+offset_right = 13.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ko4ly")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1099727010]
+layout_mode = 0
+offset_left = -2.0
+offset_top = 19.0
+offset_right = 299.0
+offset_bottom = 167.0
+
+[node name="TitleLabel" type="Label" parent="." unique_id=2003064651]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 0
+offset_left = 5.0
+offset_top = 37.0
+offset_right = 114.0
+offset_bottom = 60.0
+text = "Cabin Routine"
+
+[node name="InfoLabel" type="Label" parent="." unique_id=1661655532]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 0
+offset_left = 135.0
+offset_top = 56.0
+offset_right = 285.0
+offset_bottom = 157.0
+text = "Maintain the cabin.
+Pick up tools.
+Clean the space.
+Uncover the story."
+
+[node name="StartButton" type="Button" parent="." unique_id=902792102]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 109.0
+offset_right = 119.0
+offset_bottom = 140.0
+text = "Start Game"
